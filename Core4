@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+<body>
+
+      <h1 style=text-align:center;">Loops,Conditionals and Functions!
+      </head>
+      <body>
+                                   <br>
+                  Blue...Loop    Yellow...   Conditional    Red...Function</h1>
+     <p style="text-align:center;">Look at the command outlined in dark blue! These represent loops in coding!
+       Loops are known to be sequences that are continually repeated until a certain condition is achieved in a program.
+Next the command outlined in yellow is called a conditional!</p>
+<img src ="Capture.PNG" alt="code" style="width:500px;height:500px;">
+    <img src ="Capture1.PNG" alt="code" style="width:300px;height:300px;">
