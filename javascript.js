@@ -15,7 +15,7 @@ function myFunction() {
 </script>
 </head>
 
-<body>
+</body>
 
 <h2>amyamaya</h2>
 
