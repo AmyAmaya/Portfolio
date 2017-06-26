@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
+  <title> aboutme </title>
 
 <h2>What Can JavaScript Do?</h2>
 
