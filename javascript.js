@@ -15,8 +15,6 @@ function myFunction() {
 </script>
 </head>
 
-</body>
-
 <h2>amyamaya</h2>
 
 <p id="demo">click here.</p>
