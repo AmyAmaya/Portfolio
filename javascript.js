@@ -1,27 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-  <title>aboutme</title>
-
-<body>
-<h1 onmouseover="style.color='powderblue'"
-onmouseout="style.color='black'">
-aboutme</h1>
-
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "aboutme.";
-}
-</script>
-</head>
-
-<h2>amyamaya</h2>
-
-<p id="demo">click here.</p>
-
-<button type="button" onclick="myFunction()">Try it</button>
-
-</body>
+ <head>
+  <title>Javascript</title>
+  </head>
+    <body>
+          <script>
+           document.write("Hello,world!");
+          </script>
+    </body>
 </html>
 
 
