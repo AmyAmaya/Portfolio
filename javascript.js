@@ -5,8 +5,6 @@ document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>
 
 <body>
- 
-<h2>aboutme</h2>
 
 <p id="demo"></p>
  
@@ -14,7 +12,8 @@ document.getElementById("demo").innerHTML = "My First JavaScript";
 onmouseout="style.color='black'">
 aboutme</h1> 
 
-
+ 
+<h2>aboutme</h2>
 
 </body>
 </html> 
