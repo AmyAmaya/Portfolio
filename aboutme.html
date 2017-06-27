@@ -23,7 +23,22 @@
     
                                                   
      <p align="center">
-   <img src ="Jesus.jpg"  alt="Jesus" style="width:800px;height:400px;">
+   
+<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="Jesus.jpg" width="40" height "40">
+
+
+
+<script>
+function bigImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+
+function normalImg(x) {
+    x.style.height = "40px";
+    x.style.width = "40px";
+}
+</script>
      </p>
      <br>
                                                                       
