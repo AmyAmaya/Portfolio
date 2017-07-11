@@ -159,4 +159,80 @@ a single organized line.</p>
   5% of what may apply to Manuela Veloso and Ayanna Howards' robots as they are not unique in themselves but
   both women have different desires for their code to complete.</p>
 
-   <p>The Bill <img src="flag.gif" alt="Smiley face" width="42" height="42"> Review.</p>
+ 
+.dropbtn {
+    background-color: #b3cbff;
+    color: white;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #454ef9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: middle;
+    background-color: #c6c8f4;
+    min-width: 160px;
+    overflow: auto;
+   
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 30px 300px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</left></style>
+</head>
+<body>
+<h2 style="font-size:50px;text-align:center;color:black;margin-top:20px;margin-bottom:80px;font-weight:bold;">The<br>Bill<br> Review</h2>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">bill calendar</a>
+    <a href="#about">contact representative</a>
+    <a href="#contact">home</a>
+    <a href="#contact">our mission</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
